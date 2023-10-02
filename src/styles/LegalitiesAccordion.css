@@ -1,0 +1,13 @@
+.legalitiesContainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) ;
+    justify-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 250px;
+}
+
+.legalitiesContainer p{
+    font-size: 0.85rem;
+    margin: 0;
+    padding: 6px;
+}

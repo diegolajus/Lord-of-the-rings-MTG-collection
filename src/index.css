@@ -1,0 +1,49 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  /* background-image: url(./assets/icons/lotrbg3.png); */
+  background-size:cover;
+}
+.App{
+  background-color: #080b0c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.commands-container{
+  /* border: 8px solid red; */
+  background-image: url("https://cdnb.artstation.com/p/assets/images/images/062/922/929/large/justyna-dura-mtg-lotr-2.jpg?1684269438&dl=1");
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size:cover;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  height: 100vh;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.filter-container {
+display: flex;
+justify-content: center;
+align-items: center;
+/* border: 8px solid green; */
+/* justify-content: space-around; */
+/* background-size: 500px; */
+/* flex-direction: row; */
+/* height: 125px; */
+height: 75px;
+}
+
+
+
+.App-container{
+  display: flex;
+  flex-direction: column;
+}
+

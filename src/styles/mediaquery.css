@@ -1,0 +1,28 @@
+@media (max-width: 768px) {
+    .stats-container {
+      max-width: 90%; /* Adjust as needed for smaller screens */
+    }
+    .percentages-container{
+      border: 5px solid green;
+      display: flex;
+      transform: scale(0.60);
+   }
+
+  }
+
+  @media (max-width: 1123px) {
+    .filter-container {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      align-items: center;
+      border: 8px solid green;
+      /* justify-content: space-around; */
+      /* background-size: 500px; */
+      /* flex-direction: row; */
+      /* height: 125px; */
+      height: 150px;
+      }
+  }   
+  

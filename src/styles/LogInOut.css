@@ -1,0 +1,74 @@
+
+
+body{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: auto;
+}
+
+  .logout-btn {
+    margin: 10px;
+    background: #fff;
+    border: none;
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 0.85rem;
+    font-weight: 600;
+    width: 120px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transform: skew(-21deg);
+  }
+  
+  .logout-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 100%;
+    left: 0;
+    background: rgb(20, 20, 20);
+    opacity: 0;
+    z-index: -1;
+    transition: all 0.5s;
+  }
+  
+  .logout-btn:hover {
+    color: #fff;
+  }
+  
+  .logout-btn:hover::before {
+    left: 0;
+    right: 0;
+    opacity: 1;
+  } 
+
+
+  /* LOGIN */
+
+
+  /* #loginContainer {
+  background-image: url('../assets/icons/lotrbg5.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  border: 5px solid green;
+
+} */
+
+.login-container {
+  height: 100vh;
+  background-image: url('../assets/icons/lotrbg5.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-size: 400px; */
+  background-position: top;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 5px solid green; */
+
+}
