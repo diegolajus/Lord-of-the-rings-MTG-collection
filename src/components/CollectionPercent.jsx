@@ -120,7 +120,7 @@ const CardSelectionPercentage = ({ selectedCards, totalCards, allCards }) => {
             strokeWidth={10}
             styles={{
               text: {
-                fontSize: '20px',
+                fontSize: '40px',
                 fontWeight: 'bold',
                 fill: 'white',
               },
@@ -137,16 +137,16 @@ const CardSelectionPercentage = ({ selectedCards, totalCards, allCards }) => {
 
       <div className="color-percentage-container">
         <img className='filter-icon' style={{ margin: '8px' }} src={greenIcon} alt={"green"} />
-        <div style={{ width: '75px', height: '75px' }}>
+        <div style={{ width: '65px', height: '65px' }}>
           <CircularProgressbar
             value={greenPercentage}
             text={`${greenPercentage}%`}
             strokeWidth={10}
             styles={{
               text: {
-                fontSize: '20px',
+                fontSize: '35px',
                 fontWeight: 'bold',
-                fill: 'white',
+                fill: '#9bd3ae',
               },
               trail: {
                 stroke: '#f2f2f2',
@@ -161,16 +161,16 @@ const CardSelectionPercentage = ({ selectedCards, totalCards, allCards }) => {
 
       <div className="color-percentage-container">
         <img className='filter-icon' style={{ margin: '8px' }} src={blueIcon} alt={"blue"} />
-        <div style={{ width: '75px', height: '75px' }}>
+        <div style={{ width: '65px', height: '65px' }}>
           <CircularProgressbar
             value={bluePercentage}
             text={`${bluePercentage}%`}
             strokeWidth={10}
             styles={{
               text: {
-                fontSize: '20px',
+                fontSize: '35px',
                 fontWeight: 'bold',
-                fill: 'white',
+                fill: '#aae0fa',
               },
               trail: {
                 stroke: '#f2f2f2',
@@ -186,16 +186,16 @@ const CardSelectionPercentage = ({ selectedCards, totalCards, allCards }) => {
 
       <div className="color-percentage-container">
         <img className='filter-icon' style={{ margin: '8px' }} src={whiteIcon} alt={"white"} />
-        <div style={{ width: '75px', height: '75px' }}>
+        <div style={{ width: '65px', height: '65px' }}>
           <CircularProgressbar
             value={whitePercentage}
             text={`${whitePercentage}%`}
             strokeWidth={10}
             styles={{
               text: {
-                fontSize: '20px',
+                fontSize: '35px',
                 fontWeight: 'bold',
-                fill: 'white',
+                fill: '#fffbd5',
               },
               trail: {
                 stroke: '#f2f2f2',
@@ -211,16 +211,16 @@ const CardSelectionPercentage = ({ selectedCards, totalCards, allCards }) => {
 
       <div className="color-percentage-container">
         <img className='filter-icon' style={{ margin: '8px' }} src={blackIcon} alt={"black"} />
-        <div style={{ width: '75px', height: '75px' }}>
+        <div style={{ width: '65px', height: '65px' }}>
           <CircularProgressbar
             value={blackPercentage}
             text={`${blackPercentage}%`}
             strokeWidth={10}
             styles={{
               text: {
-                fontSize: '20px',
+                fontSize: '35px',
                 fontWeight: 'bold',
-                fill: 'white',
+                fill: '#cbc2bf',
               },
               trail: {
                 stroke: '#f2f2f2',
@@ -236,16 +236,16 @@ const CardSelectionPercentage = ({ selectedCards, totalCards, allCards }) => {
 
       <div className="color-percentage-container">
         <img className='filter-icon' style={{ margin: '8px' }} src={redIcon} alt={"red"} />
-        <div style={{ width: '75px', height: '75px' }}>
+        <div style={{ width: '65px', height: '65px' }}>
           <CircularProgressbar
             value={redPercentage}
             text={`${redPercentage}%`}
             strokeWidth={10}
             styles={{
               text: {
-                fontSize: '20px',
+                fontSize: '35px',
                 fontWeight: 'bold',
-                fill: 'white',
+                fill: '#f9aa8f',
               },
               trail: {
                 stroke: '#f2f2f2',
